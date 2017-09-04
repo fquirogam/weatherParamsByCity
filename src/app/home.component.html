@@ -1,0 +1,3 @@
+<div class="dvcities">
+	<a [routerLink]="['/city',city.name]" routerLinkActive=active *ngFor="let city of cities"  class="cityintro" [style.backgroundImage]="'url('+city.image+')'">{{city.name}}</a>
+</div>

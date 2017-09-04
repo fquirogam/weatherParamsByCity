@@ -1,0 +1,15 @@
+.dvchart{
+    width:24%;
+}
+
+@media(max-width: 1250px){
+    .dvchart{
+        width:50%;
+    }
+}
+
+@media(max-width: 992px){
+    .dvchart{
+        width:100%;
+    }
+}

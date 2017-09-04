@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 9vh;
+    border-bottom: 1vh solid #485b75;
+}
+
+header h1{
+    font-weight: bold;
+    font-size:2em;
+    text-align:center;
+}
+
+header h1 a{
+    color:black;
+    text-decoration: none;
+}

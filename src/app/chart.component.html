@@ -1,0 +1,36 @@
+<div class="dvchart">
+<canvas *ngIf="tempDataAvailable" baseChart
+[datasets]="tempChartData"
+[labels]="commonChartLabels"
+[options]="commonChartOptions"
+[colors]="commonChartColors"
+[legend]="commonChartLegend"
+[chartType]="commonChartType"></canvas>
+</div>
+<div class="dvchart">
+<canvas *ngIf="humidityDataAvailable" baseChart
+[datasets]="humidityChartData"
+[labels]="commonChartLabels"
+[options]="commonChartOptions"
+[colors]="commonChartColors"
+[legend]="commonChartLegend"
+[chartType]="commonChartType"></canvas>
+</div>
+<div class="dvchart">
+<canvas *ngIf="pressureDataAvailable" baseChart
+[datasets]="pressureChartData"
+[labels]="commonChartLabels"
+[options]="commonChartOptions"
+[colors]="commonChartColors"
+[legend]="commonChartLegend"
+[chartType]="commonChartType"></canvas>
+</div>
+<div class="dvchart">
+<canvas *ngIf="windSpeedDataAvailable" baseChart
+[datasets]="windSpeedChartData"
+[labels]="commonChartLabels"
+[options]="commonChartOptions"
+[colors]="commonChartColors"
+[legend]="commonChartLegend"
+[chartType]="commonChartType"></canvas>
+</div>

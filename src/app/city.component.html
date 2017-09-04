@@ -1,0 +1,11 @@
+<div *ngIf="city">
+    <div class="dvcity" [style.backgroundImage]="'url('+city.image+')'">
+        <h1>{{city.name}}</h1>
+    </div>
+    <nav>
+        <ul>
+            <li *ngFor="let city of cities" routerLinkActive=active><a [routerLink]="['/city',city.name]" routerLinkActive=active>{{city.name}}</a></li>
+        </ul>
+    </nav>
+        <chart [city]="city"></chart>
+</div>
